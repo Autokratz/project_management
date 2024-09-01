@@ -1,0 +1,40 @@
+.gantt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gantt-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .gantt-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .gantt-image {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .gantt-description {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+    max-width: 800px;
+    line-height: 1.5;
+  }
+  
